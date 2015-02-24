@@ -1,6 +1,6 @@
 {
   "name": "prerender-plugin-memcached",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "prerender memcached cache plugin",
   "main": "index.js",
   "repository": {
@@ -15,6 +15,6 @@
   "homepage": "https://github.com/charliewolf/prerender-plugin-memcached",
   "dependencies": {
     "cache-manager": "^0.18.0",
-    "cache-manager-memcached": "0.0.1"
+    "cache-manager-memcached": "*"
   }
 }
