@@ -1,0 +1,20 @@
+{
+  "name": "prerender-plugin-memcached",
+  "version": "0.0.1",
+  "description": "prerender memcached cache plugin",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/charliewolf/prerender-plugin-memcached.git"
+  },
+  "author": "Charlie Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charliewolf/prerender-plugin-memcached/issues"
+  },
+  "homepage": "https://github.com/charliewolf/prerender-plugin-memcached",
+  "dependencies": {
+    "cache-manager": "^0.18.0",
+    "cache-manager-memcached": "0.0.1"
+  }
+}
