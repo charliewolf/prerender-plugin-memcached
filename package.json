@@ -1,6 +1,6 @@
 {
   "name": "prerender-plugin-memcached",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "prerender memcached cache plugin",
   "main": "index.js",
   "repository": {

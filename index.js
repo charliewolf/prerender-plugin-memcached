@@ -4,7 +4,7 @@ var memcachedStore = require('cache-manager-memcached');
 module.exports = {
     init: function(){
         this.cache = cache_manager.caching({
-            store: memcachedStore, ttl: process.env.CACHE_TTL || 60, servers: [process.env.MEMCACHED_SERVER||'localhost:11211']
+            store: memcachedStore, ttl: parseInt(process.env.CACHE_TTL || 60, 10), servers: [process.env.MEMCACHED_SERVER||'localhost:11211']
         });
     },
 
